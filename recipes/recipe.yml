@@ -20,11 +20,11 @@ modules:
 
   - type: dnf
     repos:
+      files:
+        - https://download.docker.com/linux/fedora/docker-ce.repo
       copr:
         - name: iucar/rstudio
           chroot: fedora-43-x86_64
-      files:
-        - https://download.docker.com/linux/fedora/docker-ce.repo
     install:
       packages:
         - zsh
