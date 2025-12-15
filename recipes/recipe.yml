@@ -21,13 +21,10 @@ modules:
   - type: dnf
     repos:
       copr:
-        - iucar/rstudio
+        - name: iucar/rstudio
+          chroot: fedora-43-x86_64
       files:
-        - https://repo.secureblue.dev/secureblue.repo
         - https://download.docker.com/linux/fedora/docker-ce.repo
-    optfix:
-      - ricoh-scan-utility
-      - v2rayN
     install:
       packages:
         - zsh
@@ -36,7 +33,6 @@ modules:
         - containerd.io
         - docker-buildx-plugin
         - docker-compose-plugin
-        - trivalent
         - R
         - rstudio-desktop
         - https://github.com/2dust/v2rayN/releases/latest/download/v2rayN-linux-rhel-64.rpm
