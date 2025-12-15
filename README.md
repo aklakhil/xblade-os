@@ -1,4 +1,4 @@
-# KH is a bad videogame &nbsp; [![bluebuild build badge](https://github.com/ktheticdev/Organization-XIII/actions/workflows/build.yml/badge.svg)](https://github.com/ktheticdev/Organization-XIII/actions/workflows/build.yml)
+# KH is a bad videogame &nbsp; [![bluebuild build badge](https://github.com/ktheticdev/xblade-os/actions/workflows/build.yml/badge.svg)](https://github.com/ktheticdev/xblade-os/actions/workflows/build.yml)
 
 See the unseen.
 
@@ -10,7 +10,7 @@ To rebase an existing atomic Fedora installation to the latest build:
 
 - First rebase to the unsigned image, to get the proper signing keys and policies installed:
   ```
-  rpm-ostree rebase ostree-unverified-registry:ghcr.io/ktheticdev/organization_xiii:latest
+  rpm-ostree rebase ostree-unverified-registry:ghcr.io/ktheticdev/xblade_os:latest
   ```
 - Reboot to complete the rebase:
   ```
@@ -18,7 +18,7 @@ To rebase an existing atomic Fedora installation to the latest build:
   ```
 - Then rebase to the signed image, like so:
   ```
-  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/ktheticdev/organization_xiii:latest
+  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/ktheticdev/xblade_os:latest
   ```
 - Reboot again to complete the installation
   ```
@@ -36,5 +36,5 @@ If build on Fedora Atomic, you can generate an offline ISO with the instructions
 These images are signed with [Sigstore](https://www.sigstore.dev/)'s [cosign](https://github.com/sigstore/cosign). You can verify the signature by downloading the `cosign.pub` file from this repo and running the following command:
 
 ```bash
-cosign verify --key cosign.pub ghcr.io/ktheticdev/organization_xiii
+cosign verify --key cosign.pub ghcr.io/ktheticdev/xblade_os
 ```
