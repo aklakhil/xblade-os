@@ -6,13 +6,13 @@ dnf -y remove kernel* && rm -r -f /usr/lib/modules/*
 dnf -y install --setopt=install_weak_deps=False \
     dnf-plugins-core
 # Enable CachyOS kernel repo
-dnf -y copr enable bieszczaders/kernel-cachyos-lto
+dnf -y copr enable bieszczaders/kernel-cachyos-lto fedora-43-x86_64
 # Install CachyOS LTO kernel & akmods
 dnf -y install --setopt=install_weak_deps=False \
     kernel-cachyos-lto \
     akmods
 # Enable CachyOS addons repo
-dnf -y copr enable bieszczaders/kernel-cachyos-addons
+dnf -y copr enable bieszczaders/kernel-cachyos-addons fedora-43-x86_64
 # Install SCX-stuff
 dnf -y install --setopt=install_weak_deps=False \
     scx-scheds-git \
