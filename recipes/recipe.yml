@@ -1,11 +1,7 @@
 ---
 # yaml-language-server: $schema=https://raw.githubusercontent.com/ktheticdev/bluebuild-cli/refs/heads/main/test-files/schema/recipe-v1.json
 # image will be published to ghcr.io/<user>/<name>
-<<<<<<< HEAD
 name: xblade_os
-=======
-name: xblade-os
->>>>>>> b90e7c2 (chore(automatic): change image name in recipe)
 # description will be included in the image's metadata
 description: ...x blade!
 
