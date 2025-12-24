@@ -6,7 +6,7 @@ name: xblade_os
 description: ...x blade!
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/silverblue-main
+base-image: ghcr.io/blue-build/base-images/fedora-cosmic
 image-version: 43 # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
@@ -73,9 +73,5 @@ modules:
         # If no repo information is specified, Flathub will be used by default
         install:
           - org.mozilla.firefox
-          - org.gnome.Loupe
-        remove:
-          - org.gnome.eog
-
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
